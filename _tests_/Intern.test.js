@@ -8,3 +8,4 @@ test("Creates a new Employee and retrieves it's information", () => {
     expect(testIntern.getEmail()).toEqual('Bob@bobmail.com');
     expect(testIntern.getSchool()).toEqual('University of Utah');
     expect(testIntern.getRole()).toEqual('Intern');
+});

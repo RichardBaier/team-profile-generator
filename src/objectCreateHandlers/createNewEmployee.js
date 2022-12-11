@@ -5,9 +5,9 @@ const Intern = require('../../lib/Intern');
 
 async function createEmployeeBasedOnRole(name, id, email, role) {
     if (role === 0) {
-        const { github } = await inquirer.prompt([{
+        const { gitHub } = await inquirer.prompt([{
             type: 'input',
-            name: 'github',
+            name: 'gitHub',
             message: 'What is the Engineers GitHub profile?',
             validate: (input) => {
                 if (input) {

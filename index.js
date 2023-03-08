@@ -17,7 +17,7 @@ async function initApp() {
 
     console.log("Add your first employee!");
     let keepAddingEmployees = true;
-    while(keepAddingEmployees = true) {
+    while(keepAddingEmployees) {
         const roleId = await promptNewEmployeeRole();
 
         const employee = await createNewEmployee(roleId);
